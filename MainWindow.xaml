@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:BerechnungVorwiderstandLED_Wpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,0,-8,0" HorizontalAlignment="Left" Width="800">
         <Rectangle x:Name="rec_Widerstand" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="32" Margin="295,125,0,0" Stroke="Black" VerticalAlignment="Top" Width="156"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="3" Margin="159,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="136"/>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="3" Margin="451,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="136"/>
@@ -16,7 +16,7 @@
         <Polygon  
     Points="150,100 200,67 200,135 150,100"  
     Stroke="Purple"
-    StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Margin="405,-61,-199,59">
+    StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Margin="398,-61,-192,59">
             <Polygon.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -33,18 +33,17 @@
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="6" Margin="550,347,0,0" Stroke="Black" VerticalAlignment="Top" Width="74"/>
         <Label x:Name="lbl_Widerstand" Content="Widerstand R = ?" HorizontalAlignment="Left" Margin="295,77,0,0" VerticalAlignment="Top" Width="156" Height="27"/>
         <TextBox x:Name="txt_SpannungQuelle" HorizontalAlignment="Left" Height="31" Margin="33,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="126"/>
-        <TextBox x:Name="txt_Spannungsabfall" HorizontalAlignment="Left" Height="31" Margin="647,209,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
-        <TextBox x:Name="txt_Stromverbrauch" HorizontalAlignment="Left" Height="31" Margin="647,295,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
-        <Label Content="Spannung" HorizontalAlignment="Left" Margin="33,95,0,0" VerticalAlignment="Top" Width="126"/>
-        <Label Content="Max Spannungsabfall U" HorizontalAlignment="Left" Margin="647,183,0,0" VerticalAlignment="Top" Width="135"/>
-        <Label Content="Max Stromverbrauch I" HorizontalAlignment="Left" Margin="647,264,0,0" VerticalAlignment="Top" Width="135"/>
-        <Button Content="Widerstand berechnen" HorizontalAlignment="Left" Margin="33,257,0,0" VerticalAlignment="Top" Width="132" Height="41" Click="Button_Click"/>
-        <Label Content="Ring1" HorizontalAlignment="Left" Margin="310,125,0,0" VerticalAlignment="Top" Height="31" Width="8" Background="#FF191717"/>
-        <Label Content="Ring2" HorizontalAlignment="Left" Margin="332,125,0,0" VerticalAlignment="Top" Height="31" Width="8" Background="#FF191717"/>
-        <Label Content="Ring3" HorizontalAlignment="Left" Margin="357,126,0,0" VerticalAlignment="Top" Height="31" Width="8" Background="#FF191717"/>
-        <Label Content="Ring4" HorizontalAlignment="Left" Margin="380,126,0,0" VerticalAlignment="Top" Height="31" Width="8" Background="#FF191717"/>
-        <Label Content="Ring5" HorizontalAlignment="Left" Margin="403,126,0,0" VerticalAlignment="Top" Height="31" Width="8" Background="#FF191717"/>
-        <Label Content="Ring6" HorizontalAlignment="Left" Margin="425,126,0,0" VerticalAlignment="Top" Height="31" Width="8" Background="#FF191717"/>
+        <TextBox x:Name="txt_Spannungsabfall" HorizontalAlignment="Left" Height="31" Margin="33,212,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="126"/>
+        <TextBox x:Name="txt_Stromverbrauch" HorizontalAlignment="Left" Height="31" Margin="33,295,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="126"/>
+        <Label Content="Spannung in Volt" HorizontalAlignment="Left" Margin="33,95,0,0" VerticalAlignment="Top" Width="126"/>
+        <Label Content="Spannungsabfall U in Volt" HorizontalAlignment="Left" Margin="33,181,0,0" VerticalAlignment="Top" Width="147"/>
+        <Label Content="Stromverbrauch I in mA" HorizontalAlignment="Left" Margin="33,257,0,0" VerticalAlignment="Top" Width="146" Height="24"/>
+        <Button Content="Widerstand berechnen" HorizontalAlignment="Left" Margin="33,347,0,0" VerticalAlignment="Top" Width="132" Height="41" Click="Button_Click"/>
+        <Label Name="lblRing1" HorizontalAlignment="Left" Margin="332,126,0,0" VerticalAlignment="Top" Height="30" Width="8" Background="#00000000"/>
+        <Label Name="lblRing2" HorizontalAlignment="Left" Margin="357,126,0,0" VerticalAlignment="Top" Height="30" Width="8" Background="#00000000"/>
+        <Label Name="lblRing3" HorizontalAlignment="Left" Margin="380,126,0,0" VerticalAlignment="Top" Height="30" Width="8" Background="#00000000"/>
+        <Label Name="lblRing4" HorizontalAlignment="Left" Margin="403,126,0,0" VerticalAlignment="Top" Height="30" Width="8" Background="#00000000"/>
+        <Label Name="lblRing5" HorizontalAlignment="Left" Margin="425,126,0,0" VerticalAlignment="Top" Height="30" Width="8" Background="#00000000"/>
 
     </Grid>
 </Window>
