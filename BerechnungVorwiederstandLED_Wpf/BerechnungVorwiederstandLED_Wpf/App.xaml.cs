@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace BerechnungVorwiederstandLED_Wpf
+namespace BerechnungVorwiderstandLED_Wpf
 {
     /// <summary>
     /// Interaktionslogik für "App.xaml"

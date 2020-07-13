@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\teilnehmer\source\repos\ErstesProjekt\tertio\ErstesProjekt-master\BerechnungVorwiederstandLED_Wpf\BerechnungVorwiederstandLED_Wpf\obj\Debug\
+C:\Users\teilnehmer\source\repos\ErstesProjekt\tertio\ErstesProjekt-master\BerechnungVorwiederstandLED_Wpf\BerechnungVorwiederstandLED_Wpf\obj\Release\
 BerechnungVorwiederstandLED_Wpf
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\teilnehmer\source\repos\ErstesProjekt\tertio\ErstesProjekt-master\BerechnungVorwiederstandLED_Wpf\BerechnungVorwiederstandLED_Wpf\App.xaml
 11151548125
 
@@ -16,5 +16,5 @@ C:\Users\teilnehmer\source\repos\ErstesProjekt\tertio\ErstesProjekt-master\Berec
 13-1505183044
 MainWindow.xaml;
 
-False
+True
 
